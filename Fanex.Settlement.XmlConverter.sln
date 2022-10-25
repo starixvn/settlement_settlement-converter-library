@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanex.Settlement.XmlConverter", "Fanex.Settlement.XmlConverter\Fanex.Settlement.XmlConverter.csproj", "{140BD3AC-A97A-4D94-91A1-911DC217DEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanex.Settlement.XmlConverter.UnitTests", "Fanex.Settlement.XmlConverter.UnitTests\Fanex.Settlement.XmlConverter.UnitTests.csproj", "{25CAFD82-C474-4005-B201-22EF706FBEA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{140BD3AC-A97A-4D94-91A1-911DC217DEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140BD3AC-A97A-4D94-91A1-911DC217DEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140BD3AC-A97A-4D94-91A1-911DC217DEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140BD3AC-A97A-4D94-91A1-911DC217DEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CAFD82-C474-4005-B201-22EF706FBEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CAFD82-C474-4005-B201-22EF706FBEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CAFD82-C474-4005-B201-22EF706FBEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CAFD82-C474-4005-B201-22EF706FBEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C6D4779-4CEB-470E-A0D1-07156141127D}
+	EndGlobalSection
+EndGlobal
