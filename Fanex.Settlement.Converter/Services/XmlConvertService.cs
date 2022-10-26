@@ -2,7 +2,7 @@
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Fanex.Settlement.XmlConverter;
+namespace Fanex.Settlement.Converter.Services;
 
 public interface XmlConvertService
 {

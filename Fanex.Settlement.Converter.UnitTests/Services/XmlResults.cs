@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace Fanex.Settlement.XmlConverter.UnitTests;
+namespace Fanex.Settlement.Converter.UnitTests.Services;
 
 [XmlRoot("Results")]
 public class XmlResults

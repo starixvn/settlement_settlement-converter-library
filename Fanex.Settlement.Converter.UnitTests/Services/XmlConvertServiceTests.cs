@@ -1,6 +1,7 @@
-﻿using Xunit;
+﻿using Fanex.Settlement.Converter.Services;
+using Xunit;
 
-namespace Fanex.Settlement.XmlConverter.UnitTests;
+namespace Fanex.Settlement.Converter.UnitTests.Services;
 
 public class XmlConvertServiceTests
 {

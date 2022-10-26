@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace Fanex.Settlement.XmlConverter.UnitTests;
+namespace Fanex.Settlement.Converter.UnitTests.Services;
 
 public class XmlResource
 {
