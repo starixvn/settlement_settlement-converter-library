@@ -27,7 +27,7 @@ pipeline {
         stage("C# Unit Test"){
           steps{
             script{
-              pipelineLib.xUnitForNet5()
+              pipelineLib.xUnitForNet6()
             }
           }
         }
