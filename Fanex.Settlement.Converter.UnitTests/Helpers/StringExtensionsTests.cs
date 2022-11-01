@@ -24,4 +24,52 @@ public class StringExtensionsTests
         // Assert
         Assert.Equal(expected, actual);
     }
+
+    [Theory]
+    [InlineData("HAHAA", "h")]
+    [InlineData("HAHAA", "H")]
+    public void IgnoreCaseStartsWith_Always_ReturnsTrue(string value1, string value2)
+    {
+        // Act
+        var actual = value1.IgnoreCaseStartsWith(value2);
+
+        // Assert
+        Assert.True(actual);
+    }
+
+    [Theory]
+    [InlineData("HAHAA", "a")]
+    [InlineData("HAHAA", "A")]
+    public void IgnoreCaseEndsWith_Always_ReturnsTrue(string value1, string value2)
+    {
+        // Act
+        var actual = value1.IgnoreCaseEndsWith(value2);
+
+        // Assert
+        Assert.True(actual);
+    }
+
+    [Theory]
+    [InlineData("1FL:0-1;FL", ";FL", 7)]
+    [InlineData("1FL:0-1;FL:1-1", "1FL", 0)]
+    public void IgnoreCaseIndexOf_Always_ReturnsRightExpected(string value1, string value2, int expected)
+    {
+        // Act
+        var actual = value1.IgnoreCaseIndexOf(value2);
+
+        // Assert
+        Assert.Equal(expected, actual);
+    }
+
+    [Fact]
+    public void Reverse_Always_ReturnsRightExpected()
+    {
+        var value = "123456";
+        // Act
+        var actual = value.Reverse();
+
+        // Assert
+        var expected = "654321";
+        Assert.Equal(expected, actual);
+    }
 }
